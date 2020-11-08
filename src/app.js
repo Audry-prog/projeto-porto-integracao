@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require('mongoose');
 const app = express();
 
-mongoose.connect("mongodb://localhost:27017/reprograma",  { useNewUrlParser: true, 
+mongoose.connect("mongodb://localhost:27017/clientes",  { useNewUrlParser: true, 
 useUnifiedTopology: true 
 });
 
